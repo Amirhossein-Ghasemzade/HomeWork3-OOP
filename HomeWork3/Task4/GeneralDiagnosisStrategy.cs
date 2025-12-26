@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace HomeWork3.Task4
+{
+    public class GeneralDiagnosisStrategy : IDiagnosisStrategy
+    {
+        public string MakeDiagnosis(Patient patient)
+        {
+            return "General Checkup";
+        }
+    }
+}
